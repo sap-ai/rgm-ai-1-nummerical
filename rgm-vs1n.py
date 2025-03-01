@@ -2,7 +2,7 @@ import random
 import math
 pm = input("Put preformance here mode bad or good: ")
 td = open(input())
-exec(str("goals = [") + str(td.read() + ", 0, 0") + str("]"))
+exec(str("goals = [") + str(td.read() + ", 0") + str("]"))
 en = []
 gl = len(goals)
 for i in range(gl):
